@@ -11,5 +11,6 @@ export const theme = {
     gray_900: '#121214',
 
     green_500: '#00875f',
+    green_300: '#00B37E',
   },
 };

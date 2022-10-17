@@ -238,6 +238,17 @@ export const EditButton = styled('button', {
   cursor: 'pointer',
   display: 'flex',
   alignItems: 'center',
+  '&:hover': {
+    backgroundColor: theme.colors.green_500,
+    color: theme.colors.white,
+    transition: 'color 0.1s',
+    '& svg': {
+      color: theme.colors.white,
+    },
+  },
+  '& svg': {
+    color: theme.colors.green_500,
+  },
 });
 
 export const PublishButton = styled('button', {
@@ -249,4 +260,8 @@ export const PublishButton = styled('button', {
   color: theme.colors.white,
   marginTop: '1rem',
   cursor: 'pointer',
+  '&:hover': {
+    backgroundColor: theme.colors.green_300,
+    transition: 'color 0.1s',
+  },
 });

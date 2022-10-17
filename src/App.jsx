@@ -58,7 +58,6 @@ function App() {
               </p>
               <styles.EditButton>
                 <RiEdit2Line
-                  color={theme.colors.green_500}
                   size={'1.25rem'}
                   style={{ marginRight: '0.6rem' }}
                 />
